@@ -1,7 +1,20 @@
+@font-face {
+  font-family: LibreBaskervilleNavMenu;
+  src: url(fonts/libre_baskerville_regular.woff);
+}
+
+@font-face {
+  font-family: LibreBaskervilleNavMenu;
+  src: url(fonts/libre_baskerville_bold.woff);
+  font-weight: bold;
+}
+
 .navMenu{
   background-color: black;
   color:white;
   font-size: 36px;
+  font-style: bold;
+  font-family: LibreBaskervilleNavMenu;
 }
 .navMenuLink{
   background-color: black;
