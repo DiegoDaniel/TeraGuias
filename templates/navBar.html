@@ -19,23 +19,39 @@
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							GUIAS
 							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="#">CLASES</a>
-								<a class="dropdown-item" href="#">INSTANCIAS (PvE)</a>
-								<a class="dropdown-item" href="#">BATTLEGROUNDS (PvP)</a>
-							</div>
+								<li class="dropdown-submenu">
+									<a class="dropdown-item dropdown-toggle" href="#">INSTANCIAS (PvE)</a>
+									<ul class="dropdown-menu">
+										<li><a class="dropdown-item" href="#">Subida Abismal (BR)</a></li>
+										<li><a class="dropdown-item" href="#">B&oacute;veda de Kaprima (VoK)</a></il>
+										<li><a class="dropdown-item" href="#">Flota Destru&iacute;da (SF)</a></il>
+										<li><a class="dropdown-item" href="#">Escape del Tiempo (TS)</a></il>
+									</ul>
+								</li>
+								<li class="dropdown-submenu">
+									<a class="dropdown-item dropdown-toggle" href="#">BATTLEGROUNDS (PvP)</a>
+									<ul class="dropdown-menu">
+										<li><a class="dropdown-item" href="#">Fortaleza De Corsarios (CS)</a></li>
+										<li><a class="dropdown-item" href="#">Ca&ntilde;&oacute;n Ventoso (FWC)</a></il>
+										<li><a class="dropdown-item" href="#">Gridiron</a></il>
+										<li><a class="dropdown-item" href="#">Kumas</a></il>
+									</ul>
+								</li>
+							</ul>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							EQUIPAMIENTO
 							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">SET PvE</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="/templates/equipamiento/setPvE/setPvE.html">SET PvE</a>
 								<a class="dropdown-item" href="#">SET PvP</a>
 								<a class="dropdown-item" href="#">ACCESORIOS PvE</a>
 								<a class="dropdown-item" href="#">ACCESORIOS PvP</a>
 								<a class="dropdown-item" href="#">BROCHES</a>
-							</div>
+							</ul>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -55,3 +71,5 @@
 		</div>
 	</div>
 </body>
+<script src="/js/navBar.js"></script>
+</html>
