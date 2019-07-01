@@ -9,8 +9,7 @@ $(document).ready(function(){
 
     $("#logoNavMenu").hover(
         function(){
-            $(this).css({ 'color': '#dda120', 'font-size': '98%' });
-            $(this).css('cursor', 'pointer');
+            $(this).css({ 'color': '#dda120', 'font-size': '98%', 'cursor': 'pointer' });
         },
         function(){
             $(this).css({ 'color': 'white', 'font-size': '100%' });
@@ -22,6 +21,14 @@ $(document).ready(function(){
         
     });
 
+    $("#btn_search").click(function(){
+        console.log("Buscando...");
+    });
 
-
+    $("#btn_search").hover(function(){
+        $(this).css({'color': '#808080', 'cursor': 'pointer'})
+    },function(){
+        $(this).css('color', '#ffffff')
+    });
+   
 })
